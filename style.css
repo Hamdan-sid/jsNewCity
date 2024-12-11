@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right,#d4f87f,rgb(6, 116, 143));
+}
+h2{
+    color: silver;
+}
+h2:hover{
+    color: rgb(5, 12, 83);
+    cursor: default;
+}
+#userCityName{
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+#userCityName:focus{
+    color: white;
+    background-color: black;
+}
+#btn{
+    width: 70px;
+    height: 25px;
+    color: white;
+    background-color: rgb(243, 221, 195);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#btn:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    background-color: rgb(189, 215, 245);
+}
